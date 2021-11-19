@@ -1,0 +1,27 @@
+We want to display the list of products when the user clicks Catalogue
+
+We connect the webpage link to the hyperlink "GET /api/catalog"
+
+1. Create a layer that deals with querying the database
+      in db folder
+        dbQuery.js
+          creates a connection to the database server
+          submits sql queries and gets results (through the callback mechanism)
+        productDAO.js
+            implements the queries related to products we need in our appplication
+
+2. Create a higher-level module that searches for the products using different criteria
+      in services folder 
+        productServices.js
+
+3. Create a control layer responsible for handling the HTTPS request
+      in controllers folder
+        productController.js
+
+4. Create a routes module for which our server provides a responsible
+      in routes folder  
+        apis.js
+
+
+
+

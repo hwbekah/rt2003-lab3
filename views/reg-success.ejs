@@ -1,0 +1,16 @@
+<%- include("header") %>
+<div class="content">
+
+  <h1 id="login-success">Login</h1>
+  <p>Successfully registered. Please log in with your username and password.</p>
+
+  <form action="/api/login" method="POST">
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username"><br><br>
+    <label for="password">Password:</label>
+    <input type="text" id="password" name="password"><br></br>
+    <input type="submit" value="Login">
+  </form>
+
+</div>
+<%- include("footer") %>
