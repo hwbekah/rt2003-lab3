@@ -2,6 +2,12 @@ root {
   display: block;
 }
 
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 a {
   font-family: Verdana, Arial, Helvetica, sans-serif;
   color: #116be0;
@@ -81,6 +87,7 @@ a.lien:active {
 .content {
   font-family: cursive;
   font-size: 12px;
+  margin: 20px;
 }
 
 #catalog thead th {
@@ -101,5 +108,5 @@ a.lien:active {
   clear: both;
   position: relative;
   height: 20px;
-  margin-top: -20px;
+  margin-top: 20px;
 }
