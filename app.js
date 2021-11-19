@@ -8,12 +8,6 @@ const app = express();
 // through the req.body property
 const bodyParser = require("body-parser"); //  middleware
 
-// Send a HTTP response when receiving HTTPS GET
-// app.use(express.static("public"));
-// app.get("/", (req, res) => {
-//   res.sendFile("index.html", { root: __dirname });
-// });
-
 // Our app is going to use the body-parser
 // .urlencoded indicates that we are parsing data from the body.
 // When working with forms, we use the urlencoded parser because by default,
